@@ -168,6 +168,52 @@
           </tr>
         </tbody>
       </table>
+      <form action="#">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <label for="nombre">
+            Nombre:
+            <input type="text" id="nombre" placeholder="Escribe tu nombre..." required />
+          </label><br><br>
+          <label for="email">
+            Email:
+            <input type="email" id="email" placeholder="Escribe tu email..." required />
+          </label><br><br>
+        </fieldset>
+        <fieldset>
+          <legend>Preguntas Rápidas</legend>
+          <label for="ve_partidos">
+            ¿Sueles ver partidos de la NBA?
+            <select id="ve_partidos" required>
+              <option value="">Selecciona una opción</option>
+              <option value="Si">Sí</option>
+              <option value="No">No</option>
+            </select>
+          </label><br><br>
+          <label for="mejores_equipos">
+            ¿Cuáles consideras los mejores equipos de la NBA actualmente?
+            <textarea id="mejores_equipos" cols="30" rows="3" placeholder="Escribe tus respuestas..." required></textarea>
+          </label><br><br>
+          <label for="equipos_titulos">
+            ¿Sabes cuáles son los equipos con más títulos en la NBA?
+            <input type="text" id="equipos_titulos" placeholder="Escribe tus respuestas..." required />
+          </label><br><br>
+          <label for="mejores_jugadores">
+            ¿Quiénes crees que son los mejores jugadores de la NBA en la actualidad?
+            <textarea id="mejores_jugadores" cols="30" rows="3" placeholder="Escribe tus respuestas..." required></textarea>
+          </label><br><br>
+          <label for="jugador_favorito">
+            Jugador Favorito:
+            <input type="text" id="jugador_favorito" placeholder="¿Quién es tu jugador favorito?" required />
+          </label><br><br>
+          <label for="observacion">
+            Observación:
+            <textarea id="observacion" cols="30" rows="5" placeholder="Agrega aquí tus observaciones..." required></textarea>
+          </label><br><br>
+        </fieldset>
+        <button type="submit">Responder</button>
+      </form>   
+  
 </body>
 
 </html>
